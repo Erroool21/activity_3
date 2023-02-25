@@ -1,0 +1,93 @@
+* {
+  
+  font-family: Georgia, serif;
+  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(./Images/website.jpg);
+ 
+}
+
+
+
+/* NAVIGATION BAR */
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header {
+  
+    background-color: rgb(255, 240, 240);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    padding: 0;
+}
+header *{
+  display: inline
+}
+header li {margin: 25px;}
+header li a {color: rgb(0, 0, 0);
+text-decoration: none;} 
+
+
+
+
+main.main-container {
+  padding-top: 100px; 
+}
+
+section.banner {
+  color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 350px;
+  gap: 50px; 
+  padding: 20px;
+  display: flex;
+  padding-bottom: 300px;
+ 
+}
+
+section > .banner-header {
+  font-size: 60px;
+  text-shadow: 5px 8px 8px black;
+
+ 
+}
+
+section > .banner-text {
+  font-size: 24px;
+  text-shadow: 5px 8px 8px black;
+  text-indent: 25px;
+  
+}
+
+
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
